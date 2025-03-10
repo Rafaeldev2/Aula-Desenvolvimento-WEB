@@ -1,5 +1,55 @@
-body{
+html{
+    height: 100%;
     margin: 0;
-    display: flex;
-}
+};
 
+/* .delta_li{
+
+}; */
+
+.delta_section{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+};
+
+/* .delta_input{
+
+}; */
+
+#delta_header{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+};
+
+#delta_nav{
+height: 100%;
+};
+
+#delta_main{
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+};
+
+/* #delta_paragraph{
+
+}; */
+
+#delta_form{
+height: 100%;
+};
+
+/* #delta_image{
+
+};
+
+#delta_footer{
+
+}; */
