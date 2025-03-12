@@ -1,9 +1,7 @@
 body{
-height: 100%;
-display: flex;
-flex-direction: column;
-background-color: rgb(217, 103, 21);
-};
+    display: flex;
+    flex-direction: column;
+}
 
 /* .delta_li{
 
@@ -11,41 +9,36 @@ background-color: rgb(217, 103, 21);
 
 .delta_section{
 height: 100%;
-width: 100%;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 flex-direction: column;
-background-color: blueviolet
 };
 
-.delta_input{
-border: 2px black;
-border-radius: 3px, 4px;
-size: 2,5rem;
-};
+/* .delta_input{
+
+}; */
 
 #delta_header{
 height: 100%;
 width: 100%;
 display: flex;
 justify-content: center;
-background-color: rgb(3, 255, 255);
+flex-direction: row;
 };
 
 #delta_nav{
 height: 100%;
-width: 100%;
+display: flex;
+flex-direction: row;
 };
 
 #delta_main{
 height: 70%;
-width: 100%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: end;
 flex-direction: column;
-background-color: seagreen;
 };
 
 /* #delta_paragraph{
@@ -58,8 +51,9 @@ height: 100%;
 
 /* #delta_image{
 
-};
+}; */
 
 #delta_footer{
-
-}; */
+    height: 30%;
+    display: flex;
+};
