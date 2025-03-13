@@ -9,18 +9,22 @@
 </head>
 <body>
     <header id="delta_header">
-        <h1>Página Inicial</h1>
+        <h1 id="delta_h1">Página Inicial</h1>
         <nav id="delta_nav">
-            eu sou uma nav dentro de um header
-            <menu id="delta_menu">
-                <li class="delta_li" type="none"><a href="pagina1.html"> Pagina 1</a></li>
-                <li class="delta_li" type="none"><a href="pagina2.html"> Pagina 2</a></li>
-                <li class="delta_li" type="none"><a href="pagina3.html"> Pagina 3</a></li>
-            </menu>
+            <section>
+                eu sou uma nav dentro de um header
+                <menu id="delta_menu">
+                    <ol>
+                        <li class="delta_li" type="none"><a href="pagina1.html"> Pagina 1</a></li>
+                        <li class="delta_li" type="none"><a href="pagina2.html"> Pagina 2</a></li>
+                        <li class="delta_li" type="none"><a href="pagina3.html"> Pagina 3</a></li>
+                    </ol>
+                </menu>
+            </section>
         </nav>
     </header>
     <main id="delta_main">
-        <section class="delta_section">
+        <section id ="delta_section_form">
             <p id="delta_paragraph">
                 assine o formulário abaixo
             </p>
@@ -31,9 +35,9 @@
                 <input class="delta_input" title="Teste" type="button" value="Enviar" >
             </form>
         </section>
-        <section class="delta_section">
-            <video title="eu sou um video" src=""></video>
-            <image id="delta_image">Eu serei uma imagem</image>
+        <section id ="delta_section_img">
+            <video id="delta_video" title="eu sou um video" src=""></video>
+            <img id="delta_image" src="" alt="Eu serei uma imagem">
         </section>
     </main>
     <footer id="delta_footer">Aqui esta o meu Rodapé</footer>

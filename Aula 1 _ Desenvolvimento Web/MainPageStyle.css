@@ -1,59 +1,84 @@
 body{
     display: flex;
     flex-direction: column;
-}
+};
 
-/* .delta_li{
+#delta_header{
+display: flex;
+height: 15%;
+width: 100%;
+justify-content: center;
+align-items:  center;
+flex-direction: column;
+};
 
-}; */
-
-.delta_section{
+#delta_nav{
+display: flex;
 height: 100%;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+};
+
+#delta_menu{
+width: 100%;
+display: flex;
+};
+
+#delta_main{
+height: 70%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+};
+
+#delta_section_form{
+height: 50%;
+width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
 flex-direction: column;
 };
 
+#delta_section_img{
+height: 50%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+};
+
+#delta_form{
+width: 100%;
+};
+
+
+#delta_footer{
+height: 15%;
+width: 100%;
+display: flex;
+};
+
+.delta_li{
+display: flex;
+flex-direction: r
+};
+#delta_image{
+    height: 15%;
+};
+#delta_video{
+    height: 450px;
+    width: 30px;
+};
 /* .delta_input{
 
 }; */
 
-#delta_header{
-height: 100%;
-width: 100%;
-display: flex;
-justify-content: center;
-flex-direction: row;
-};
-
-#delta_nav{
-height: 100%;
-display: flex;
-flex-direction: row;
-};
-
-#delta_main{
-height: 70%;
-display: flex;
-align-items: center;
-justify-content: end;
-flex-direction: column;
-};
-
 /* #delta_paragraph{
 
 }; */
-
-#delta_form{
-height: 100%;
-};
-
-/* #delta_image{
-
-}; */
-
-#delta_footer{
-    height: 30%;
-    display: flex;
-};
