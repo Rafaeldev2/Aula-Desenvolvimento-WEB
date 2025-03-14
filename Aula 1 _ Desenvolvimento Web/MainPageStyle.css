@@ -1,84 +1,55 @@
 body{
-    display: flex;
-    flex-direction: column;
-};
+    margin: 0;
+}
 
 #delta_header{
-display: flex;
-height: 15%;
-width: 100%;
-justify-content: center;
-align-items:  center;
-flex-direction: column;
-};
+background-color: aqua;
+}
 
 #delta_nav{
-display: flex;
-height: 100%;
-width: 100%;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-};
+
+}
 
 #delta_menu{
-width: 100%;
-display: flex;
-};
+
+}
 
 #delta_main{
-height: 70%;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-flex-direction: column;
-};
+background-color: chocolate;
+}
 
 #delta_section_form{
-height: 50%;
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-};
+
+}
 
 #delta_section_img{
-height: 50%;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-};
+
+}
 
 #delta_form{
-width: 100%;
-};
 
+}
 
 #delta_footer{
-height: 15%;
-width: 100%;
-display: flex;
-};
+background-color: yellow;
+}
 
 .delta_li{
-display: flex;
-flex-direction: r
-};
+
+}
+
 #delta_image{
-    height: 15%;
-};
+
+}
+
 #delta_video{
-    height: 450px;
-    width: 30px;
-};
-/* .delta_input{
 
-}; */
+}
 
-/* #delta_paragraph{
+.delta_input{
 
-}; */
+}
+
+#delta_paragraph{
+
+}
