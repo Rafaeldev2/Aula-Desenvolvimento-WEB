@@ -3,11 +3,19 @@ body{
 }
 
 #delta_header{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+height: 21vh;
 background-color: aqua;
 }
 
 #delta_nav{
-
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 19vh;
 }
 
 #delta_menu{
