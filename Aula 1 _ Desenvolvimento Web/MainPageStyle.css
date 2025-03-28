@@ -8,7 +8,7 @@
 }
 
 body{
-    margin: 0;
+    margin: 0 auto;
 }
 
 #delta_header{
@@ -106,22 +106,47 @@ box-shadow: 5px gray;
 
 #delta_leftside{
 width: 50%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
 
+
+#delta_form_left{
+height: 40vh;
+width: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+margin-left: 20px;
+}
+
+#delta_leftside > p{
+margin-left: 20px;
 }
 
 #delta_rightside{
 width: 50%;
-
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
 }
 
-#delta_form{
+#delta_form_right{
 height: 40vh;
-width: 15vw;
+width: 100%;
 display: flex;
-align-items: center;
-justify-content: space-around;
+align-items: flex-end;
+justify-content: center;
 flex-direction: column;
-flex-wrap: wrap;
+margin-right: 20px;
+}
+
+#delta_rightside > p{
+margin-right: 20px;
 }
 
 .delta_input{
