@@ -108,7 +108,7 @@ width: 50%;
 display: flex;
 flex-flow: column;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-between;
 align-content: center;
 }
 
@@ -126,15 +126,22 @@ width: 15vw;
 display: flex;
 flex-flow: column;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-between;
 align-content: center;
 }
 
+#delta_form >textarea{
+border: 1px black solid;
+border-radius: 10px;
+box-shadow: 2px 2px 2px 2px black;
+}
+
 .delta_input{
-border: 2px;
+border: 1px;
 border-color: black;
 border-style: solid;
 border-radius: 5px;
+box-shadow: 2px 2px 2px 2px black;
 }
 
 #delta_section_img{
