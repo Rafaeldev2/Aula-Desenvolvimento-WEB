@@ -8,182 +8,48 @@
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
+    background-color: darkolivegreen;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
 }
 
 #delta_header{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-flex-wrap: wrap;
-height: 18vh;
-background-color: rgb(133, 130, 130);
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 15vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#delta_header>div{
+    width: 40%;
+    text-align: center;
+}
+
+#delta_header>nav{
+    height: 100%;
+    width: 60%;
 }
 
 #delta_nav{
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-direction: column;
-flex-wrap: wrap;
-height: 12vh;
-width: 65vw;
-background-color: rgb(11, 32, 140);
-border-radius: 50px;
-box-shadow: gray 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-#delta_nav>h1{
-width: 55vw;
-margin: 0;
-padding: 0;
-font-size: 1,8rem;
-color: #f9f9f9;
-text-align: center;
-text-shadow: 2px 2px 3px black;
-font-family: SF-Mono-Medium;
-text-wrap: wrap;
+#delta_nav>ul{
+    font-size: 1rem;
 }
 
-#delta_menu{
-margin: 0;
-padding: 0;
-width: 40vw;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-#delta_ol{
-width: 100%;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-flex-wrap: wrap;
-padding: 0;
-margin: 0;
-}
-
-.delta_li{
-width: max-content;
-text-wrap: wrap;
-}
-
-.delta_li>a{
-color: rgb(218, 208, 208);
-font-family: SF-Pro-Display-Medium;
-text-decoration: none;
-text-align: center;
-text-wrap: wrap;
-}
-
-#delta_main{
-height: 70vh;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-background-color: chocolate;
-}
-
-#delta_section_form{
-height: 100%;
-width: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-background-color: darkgreen;
-border-radius: 30px;
-box-shadow: 5px gray;
-}
-
-#delta_leftside{
-width: 50%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-}
-
-
-#delta_form_left{
-height: 40vh;
-width: 100%;
-display: flex;
-align-items: flex-start;
-justify-content: center;
-flex-direction: column;
-margin-left: 20px;
-}
-
-#delta_leftside > p{
-margin-left: 20px;
-}
-
-#delta_rightside{
-width: 50%;
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-justify-content: center;
-}
-
-#delta_form_right{
-height: 40vh;
-width: 100%;
-display: flex;
-align-items: flex-end;
-justify-content: center;
-flex-direction: column;
-margin-right: 20px;
-}
-
-#delta_rightside > p{
-margin-right: 20px;
-}
-
-.delta_input{
-border: 2px;
-border-color: black;
-border-style: solid;
-border-radius: 5px;
-}
-
-#delta_section_img{
-height: 100%;
-width: 50%;
-border: 1px black;
-border-style: none;
-border-radius: 30px;
-box-shadow: 5px gray;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-color: rgba(0, 0, 255, 0.6);
-}
-
-#delta_footer{
-height: 10vh;
-display: flex;
-background-color: yellow;
-}
-
-#delta_image{
-
-}
-
-#delta_video{
-
-}
-
-#delta_paragraph{
-
+#delta_ul{
+    display: flex;
+    flex-direction: row;
 }
