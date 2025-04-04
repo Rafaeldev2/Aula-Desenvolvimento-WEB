@@ -46,10 +46,11 @@ body{
 }
 
 #delta_nav>ul{
+    width: 100%;
     font-size: 1rem;
 }
 
 #delta_ul{
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
