@@ -9,7 +9,48 @@
 
 body{
     margin: 0;
-    padding: 0;
+    background-color: darkolivegreen;
     box-sizing: border-box;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#delta_header{
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 15vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#delta_header>div{
+    width: 40%;
+    text-align: center;
+}
+
+#delta_header>nav{
+    height: 100%;
+    width: 60%;
+}
+
+#delta_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#delta_nav>ul{
+    width: 100%;
+    font-size: 1rem;
+}
+
+#delta_ul{
+    display: flex;
+    justify-content: space-evenly;
+}

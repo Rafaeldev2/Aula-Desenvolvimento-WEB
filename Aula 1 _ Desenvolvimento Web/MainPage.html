@@ -8,50 +8,45 @@
     <title>Formulários.com</title>
 </head>
 <body>
-    <header id="delta_header">
-            <nav id="delta_nav">
+    <div id="container">
+        <header id="delta_header">
+            <div>
                 <h1 id="delta_h1">Seja bem-vindo ao Formulários.com</h1>
-                <menu id="delta_menu">
-                    <ol id="delta_ol">
+            </div>
+                <nav id="delta_nav">
+                    <ul id="delta_ul">
                         <li class="delta_li" type="none"><a href="pagina1.html">Exemplos</a></li>
                         <li class="delta_li" type="none"><a href="pagina2.html">Sobre nós</a></li>
                         <li class="delta_li" type="none"><a href="pagina3.html">Contato</a></li>
-                    </ol>
-                </menu>
-            </nav>
-    </header>
-    <main id="delta_main">
-        <section id ="delta_section_form">
-            <div id="delta_leftside">
-                <p id="delta_paragraph">
-                    assine o formulário abaixo
-                </p>
-                <form id="delta_form" action="" method="post">
-                    <input class="delta_input" title="Teste" type="text" placeholder=" Digite seu nome completo">
-                    <input class="delta_input" title="Teste" type="text" placeholder=" Digite sua idade">
-                    <select name="trabalho" id=""></select>
-                    <textarea name="Escreva aqui" id="" rows="6" cols="9" placeholder=" Deixe o seu comentário!"></textarea>
-                    <input class="delta_input" title="Teste" type="button" value="Enviar" >
-                </form>
-            </div>
-            <div id="delta_rightside">
-                <p id="delta_paragraph">
-                    assine o formulário abaixo
-                </p>
-                <form id="delta_form" action="" method="post">
-                    <input class="delta_input" title="Teste" type="text" placeholder=" Digite seu nome completo">
-                    <input class="delta_input" title="Teste" type="text">
-                    <textarea name="Escreva aqui" id="" rows="6" cols="9"></textarea>
-                    <input class="delta_input" title="Teste" type="checkbox">
-                    <button class="delta_input" type="submit"></button>
-                </form>
-            </div>
-        </section>
-        <section id ="delta_section_img">
-            <video width="350px" height="200px" id="delta_video" title="eu sou um video" src="../../../../../OUTROS/PROJETOS/PROJETOS_FULLSTACK/PROJETO HOMEBROKER FULLCYCLE/AULAS/vídeo 1 - A grande Oportunidade e Início do projeto prático Home Broker.mp4"></video>
-            <img width="300px" height="100px" id="delta_image" src="" alt="Eu serei uma imagem">
-        </section>
-    </main>
-    <footer id="delta_footer">Aqui esta o meu Rodapé</footer>
+                    </ul>
+                </nav>
+        </header>
+        <main id="delta_main">
+            <section id ="delta_section_form">
+                <div id="delta_div_form">
+                    <h2>
+                        assine o formulário abaixo
+                    </h2>
+                    <form id="delta_form" action="" method="post">
+                        <input class="delta_input" title="Teste" type="text" placeholder=" Digite seu nome completo">
+                        <input class="delta_input" title="Teste" type="text" placeholder=" Digite sua idade">
+                        <input class="delta_input" title="Teste" type="text" placeholder=" Digite seu CEP" >
+                        <input class="delta_input" title="Teste" type="text" placeholder="Rua" disabled>
+                        <input class="delta_input" title="Teste" type="text" placeholder="Número" disabled>
+                        <input class="delta_input" title="Teste" type="text" placeholder="Complemento" disabled>
+                        <input class="delta_input" title="Teste" type="text" placeholder="Bairro" disabled>
+                        <input class="delta_input" title="Teste" type="text" placeholder="Cidade" disabled>
+                        <textarea name="Escreva aqui" id="" rows="6" cols="9"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            <section id ="delta_section_img">
+                <video width="350px" height="200px" id="delta_video" title="eu sou um video" src="../../../../../OUTROS/PROJETOS/PROJETOS_FULLSTACK/PROJETO HOMEBROKER FULLCYCLE/AULAS/vídeo 1 - A grande Oportunidade e Início do projeto prático Home Broker.mp4"></video>
+                <img width="300px" height="100px" id="delta_image" src="" alt="Eu serei uma imagem">
+            </section>
+        </main>
+        <footer id="delta_footer">Todos os direitos reservados</footer>
+    </div>
 </body>
 </html>
