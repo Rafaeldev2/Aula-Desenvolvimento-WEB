@@ -1,0 +1,10 @@
+button{
+    width: 50px;
+    background-color: bisque;
+}
+
+button:hover{
+    color: aliceblue;
+    transition: ease-in-out 100ms;
+    background-color: blue;
+}
