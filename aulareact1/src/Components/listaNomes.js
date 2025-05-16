@@ -1,15 +1,10 @@
-let nomes = ["Ana", "João", "Carlos"];
-
-function ListaNomes() {
+function ListaNomes(props) {
+    props.nomes.map([i])
     return(
         <ul>
-            <li>{nomes[0]}</li>
-        </ul>,
-        <ul>
-            <li>{nomes[1]}</li>
-        </ul>,
-        <ul>
-            <li>{nomes[2]}</li>
+            <li>Seu nome é: {nomes}</li>
+            <li>Seu nome é: {nomes}</li>
+            <li>Seu nome é: {nomes}</li>
         </ul>
     )
 }
