@@ -9,4 +9,4 @@ function Contador() {
         </button>
     ) 
     }
-    export default Contador;    
+    export default Contador;
