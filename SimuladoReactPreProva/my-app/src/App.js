@@ -1,5 +1,5 @@
 import './App.css';
-import Fixedheader from './Components/FixedHeader.js';
+import Fixedheader from './Components/Fixedheader';
 
 function App() {
   return (
