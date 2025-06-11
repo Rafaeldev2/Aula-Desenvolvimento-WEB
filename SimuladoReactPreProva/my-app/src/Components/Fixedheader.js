@@ -1,28 +1,16 @@
 import { useState } from "react";
+import './Fixedheader.css'
 
 function Fixedheader(){
-  const products = [
-    { title: 'Cabbage', isFruit: false, id: 1 },
-    { title: 'Garlic', isFruit: false, id: 2 },
-    { title: 'Apple', isFruit: true, id: 3 },
-    { title: 'Orange', isFruit: true, id: 4}
-  ];
 
-  const listItems = products.map(product =>
-    <li
-      key={product.id}
-      style={{
-        color: product.isFruit ? 'magenta' : 'darkgreen'
-      }}
-    >
-      {product.title}
-    </li>
-  );
-
-    return(
+  return(
         <header className="App-header">
+          <div>
+            <h1>Estrutura de Dados</h1>
+          </div>
+          <nav>
           <button>Click on me</button>
-          <ul>{listItems}</ul>
+          </nav>
         </header>
     )
 }
