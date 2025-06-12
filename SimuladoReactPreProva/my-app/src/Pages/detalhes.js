@@ -18,7 +18,7 @@ function Detalhes() {
   if (!produto) return <p>Produto não encontrado.</p>
 
   return (
-    <section>
+    <section className='product-details'>
       <h2>{produto.nome}</h2>
       <p>Preço: R$ {produto.preco}</p>
       <p>Descrição: {produto.descricao || 'Sem descrição.'}</p>

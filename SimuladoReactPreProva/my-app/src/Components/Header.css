@@ -1,8 +1,29 @@
 header {
-    background-color: #4a90e2;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: calc(var(--spacing-unit) * 0.75) 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
     font-size: 2rem;
-    font-weight: bold;
-  }  
+  }
+
+nav{
+  margin-top: calc(var(--spacing-unit) * 0.5);
+}
+
+nav a {
+  color: white;
+  margin: 0 calc(var(--spacing-unit) * 0.75);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}  

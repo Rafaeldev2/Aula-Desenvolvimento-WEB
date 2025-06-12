@@ -19,7 +19,7 @@ function Cadastro() {
   }
 
   return (
-    <section>
+    <section className='register-content'>
       <h2>Cadastro de Produto</h2>
       <form onSubmit={handleSubmit}>
         <input placeholder="Nome" value={nome} onChange={e => setNome(e.target.value)} />

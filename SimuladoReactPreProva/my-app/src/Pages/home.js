@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <section>
+    <section className='home-content'>
       <h2>Bem-vindo à MiniStore!</h2>
       <p>Explore nosso catálogo e cadastre novos produtos.</p>
       <Link to="/produtos">Ver Produtos</Link> |{" "}

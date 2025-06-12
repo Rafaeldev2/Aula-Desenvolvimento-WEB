@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root {
+  --primary-color: #005bb5;
+  --secondary-color: #e6f3ff;
+  --footer-bg: #e8ecef;
+  --spacing-unit: 1rem;
+  --max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    margin: 0 calc(var(--spacing-unit) * 0.5);
+    font-size: 0.9rem;
+  }
+
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+
+  .register-content form {
+    max-width: 100%;
+  }
+
+  .home-content, .products-content, .product-details, .register-content {
+    padding: calc(var(--spacing-unit) * 0.5);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1201px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
