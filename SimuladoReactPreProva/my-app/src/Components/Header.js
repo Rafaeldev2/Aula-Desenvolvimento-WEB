@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return (
     <header className="bg-primary text-white text-center p-3">
-      <h1>MiniStore</h1>
+      <Link to="/" className='linkMiniStore'><h1>MiniStore</h1></Link>
       <nav>
         <Link to="/">Home</Link> |{" "}
         <Link to="/Produtos">Produtos</Link> |{" "}

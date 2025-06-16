@@ -5,7 +5,7 @@ import './Cadastro.css'
 
 function Cadastro() {
   const opcoesProdutos = [
-  'Roupa',
+  'Vestuário',
   'Eletrodoméstico',
   'Eletrônicos',
   'Cozinha',
@@ -25,7 +25,7 @@ function Cadastro() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!nome || !preco) return alert('Nome e preço são obrigatórios!')
-    salvarProduto({ nome, preco, descricao, marca, tipo, tamanho, quantidade })
+    salvarProduto({ produto, nome, preco, descricao, marca, tipo, tamanho, quantidade })
     alert('Produto cadastrado com sucesso!')
     navigate('/produtos')
   }
@@ -40,7 +40,7 @@ function Cadastro() {
         <option key={i} value={p}>{p}</option>
         ))}
         </select>
-        <input placeholder="Produto" value={produto} onChange={e => setTipo(e.target.value)} disabled />
+        <input placeholder="Produto" value={produto} onChange={e => setTipo(e.target.value)} disabled/>
         <input placeholder="Tipo" value={tipo} onChange={e => setTipo(e.target.value)} />
         <input placeholder="Marca" value={marca} onChange={e => setMarca(e.target.value)} />
         <input placeholder="Nome" value={nome} onChange={e => setNome(e.target.value)} />

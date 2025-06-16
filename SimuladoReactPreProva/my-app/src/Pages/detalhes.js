@@ -20,6 +20,11 @@ function Detalhes() {
   return (
     <section className='product-details'>
       <h2>{produto.nome}</h2>
+      <p>Produto: {produto.produto}</p>
+      <p>Tipo: {produto.tipo}</p>
+      <p>Marca: {produto.marca}</p>
+      <p>Quantidade: {produto.quantidade}</p>
+      <p>Tamanho: {produto.tamanho}</p>
       <p>Preço: R$ {produto.preco}</p>
       <p>Descrição: {produto.descricao || 'Sem descrição.'}</p>
       <button onClick={() => navigate('/produtos')}>Voltar</button>
