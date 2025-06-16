@@ -7,7 +7,7 @@ function Home() {
       <h2>Bem-vindo à MiniStore!</h2>
       <p>Explore nosso catálogo e cadastre novos produtos.</p>
       <Link to="/produtos">Ver Produtos</Link> |{" "}
-      <Link to="/cadastrar">Cadastrar Produto</Link>
+      <Link to="/cadastro">Cadastrar Produto</Link>
     </section>
   )
 }
